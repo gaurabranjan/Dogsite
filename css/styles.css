@@ -1,0 +1,130 @@
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+p{
+    color: grey;
+}
+h2{
+    font-family: "montserrat";
+    font-size: 1.4rem;
+}
+ h3{
+    font-family: "montserrat-bold";
+    font-size: 1.5rem;
+} 
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/* Naviation bar */
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 0.9rem;
+    font-family: "montserrat";
+}
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-image{
+    width: 60%;
+    margin-left: 30%;
+    transform: rotate(26deg);
+    position: absolute;
+    right: 30%;
+}
+/* feature-section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    margin-bottom: 1rem;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 12%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-family: "monrserrat";
+}
+.col{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "montserrat";
+    font-size: 3.5rem;
+}
+/* .btn{
+    width: 17%;
+} */
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* footer section */
+ #footer{
+     padding: 7% 15%;
+     text-align: center;
+ }
+.footer-button{
+    width: 25%;
+}
